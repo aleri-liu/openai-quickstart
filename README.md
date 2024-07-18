@@ -163,3 +163,9 @@ Django Peng - pjt73651@email.com
 ### 4：执行命令：python ai_translator/main.py --model_type OpenAIModel --file_format markdown --book tests/test.pdf --openai_model gpt-3.5-turbo --target_language 日语
 
 
+## homework3: router_chain 的使用
+ 
+### 1：添加多个prompt template
+### 2：遍历所有template,让llm 选择对应学科专家
+
+### 3：使用router_chain进行多学科专家的问答
