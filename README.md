@@ -154,5 +154,12 @@ Django Peng - pjt73651@email.com
 ### 3：调用并输出图文的content
 ### 4：使用Jupyter的标准输出渲染Markdown格式内容
 
+## homework2: open-translator的使用
+ 
+### 1：添加parse_argument(--target_language)以支持传递多种语种入参
+### 2：通过配置系统环境变量，
+### 3：通过pip install -r requirement.txt加载相关的依赖包
+### 进入指定目录 cd ./openao-translator
+### 4：执行命令：python ai_translator/main.py --model_type OpenAIModel --file_format markdown --book tests/test.pdf --openai_model gpt-3.5-turbo --target_language 日语
 
 
