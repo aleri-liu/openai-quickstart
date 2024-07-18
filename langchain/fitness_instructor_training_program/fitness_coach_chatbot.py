@@ -69,8 +69,8 @@ def launch_gradio():
 if __name__ == "__main__":
     import os
 
-    os.environ["OPENAI_API_KEY"] = 'sk-0RDQ2Nikw7RCuaq9Ee5d6493DcA645559eE277C177874443'
-    os.environ["OPENAI_BASE_URL"] = 'https://api.xiaoai.plus/v1'
+    os.environ["OPENAI_API_KEY"] = ''
+    os.environ["OPENAI_BASE_URL"] = ''
 
     # 初始化房产销售机器人
     initialize_sales_bot()
