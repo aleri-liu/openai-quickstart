@@ -167,5 +167,11 @@ Django Peng - pjt73651@email.com
  
 ### 1：添加多个prompt template
 ### 2：遍历所有template,让llm 选择对应学科专家
-
 ### 3：使用router_chain进行多学科专家的问答
+
+
+## homework4: 顶级健美选手聊天机器人 实战
+ 
+### 1：使用gpt-4 生成 基础数据
+### 2：将数据读取并且进行split，和embedding,存放到faiss.
+### 3：先从DB进行查询，如果根据相似度无法查询到信息，先定义prompt,将历史对话记录和最新问题传递给llm 在GPT-4中查询，然后将结果返回
